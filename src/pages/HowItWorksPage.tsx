@@ -44,6 +44,17 @@ const HowItWorksPage = () => {
                   Create Account
                 </Button>
               </Flex>
+              {/* italics:  Upload your resume and include details about your experience
+                tutoring */}
+              <Heading
+                size="sm"
+                textAlign="left"
+                color="gray.500"
+                fontStyle="italic"
+              >
+                Upload your resume and include details about your experience
+                tutoring.
+              </Heading>
             </Flex>
           </Flex>
         </Box>

@@ -19,7 +19,6 @@ import Tutor2 from "../assets/tutor2.jpg";
 import Teacher from "../assets/teacher.jpg";
 import StaticPage from "../components/page/StaticPage";
 import StaticPageSection from "../components/page/StaticPageSection";
-import SendEmailToAdmin from "../util/email-mailto-util";
 import { useNavigate } from "react-router-dom";
 
 export const HomePage = () => {
@@ -41,7 +40,7 @@ export const HomePage = () => {
             width={{ lg: "sm" }}
             transform={{ base: "translateY(-50%)", lg: "none" }}
             bg={{
-              base: "gray.700",
+              base: "gray.300",
               lg: "transparent",
             }}
             mx={{ base: "6", md: "8", lg: "0" }}
@@ -56,7 +55,7 @@ export const HomePage = () => {
               </Stack>
               <HStack spacing="3">
                 <Link
-                  color={"blue.300"}
+                  color={"blue.400"}
                   fontWeight="bold"
                   fontSize="lg"
                   onClick={() => {
@@ -65,7 +64,7 @@ export const HomePage = () => {
                 >
                   Volunteer to Tutor
                 </Link>
-                <Icon color={"blue.300"} as={FaArrowRight} />
+                <Icon color={"blue.400"} as={FaArrowRight} />
               </HStack>
             </Stack>
           </Box>
